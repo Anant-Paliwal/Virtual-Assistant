@@ -1,2 +1,3 @@
 # Virtual-Assistant
-import all module
+install all packages properly
+import packages
