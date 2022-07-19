@@ -87,8 +87,8 @@ def  sendEmail(to,content):
     server = smtplib.SMTP('smtp.gmail.com',507)
     server.ehlo()
     server.starttls()
-    server.login('anant31122000@gmail.com','password')
-    server.sendmail('anant31122000@gmail.com',to,content)
+    server.login('abcdxxx@gmail.com','password')
+    server.sendmail('abcdxxx@gmail.com',to,content)
     server.close()
 
 def read():
@@ -154,7 +154,7 @@ if __name__ == "__main__":
         try:
             speak("What should i say?")
             content = takecommand()
-            to="anant31122000@gmail.com"
+            to="abcdxxx@gmail.com"
             sendEmail(to,content)
             speak("Email has been send")
         except Exception as e:
@@ -176,7 +176,7 @@ if __name__ == "__main__":
          
     
      elif 'send message' in query:
-         kit.sendwhatmsg('+918191017502','hi i am alis',18,57)
+         kit.sendwhatmsg('+918156789456','hi i am alis',18,57)
      
      elif 'search' in query:
          search = query.replace('search','')
@@ -224,7 +224,7 @@ if __name__ == "__main__":
 
      elif "calculate" in query.lower():
              
-          app_id = "JXYYEY-WP2XA7U6AQ" 
+          app_id = "axbc-bdg-fgh-gh" 
           client = wolframalpha.Client(app_id)
   
           indx = input.lower().split().index('calculate')
